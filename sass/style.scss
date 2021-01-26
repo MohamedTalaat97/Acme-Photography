@@ -5,22 +5,31 @@
 @import 'utill';
 @import 'var';
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 body {
-    font-family: 'Roboto Condensed',
-        sans-serif;
+    font-family: 'Yusei Magic', sans-serif;
+}
 
+.container {
+    width: 65vw;
 }
 
 main {
-    height: 100vh;
-
+    height: 101vh;
     .container {
         width: 900px;
     }
-
     .landing .grid {
-
         grid-template-columns: 1fr 2.1fr;
+    }
+    .landing-text {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .btn {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        border-radius: 20px;
     }
 }
