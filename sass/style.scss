@@ -1,0 +1,26 @@
+@charset 'utf-8';
+@import 'base';
+@import 'anim';
+@import 'media';
+@import 'utill';
+@import 'var';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+
+}
+
+main {
+    height: 100vh;
+
+    .container {
+        width: 900px;
+    }
+
+    .landing .grid {
+
+        grid-template-columns: 1fr 2.1fr;
+    }
+}
